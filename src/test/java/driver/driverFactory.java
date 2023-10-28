@@ -7,8 +7,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class driverFactory {
     public static WebDriver getChromeDriver() {
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+        WebDriverManager.edgedriver().setup();
+        WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
         return driver;
     }
