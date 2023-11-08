@@ -60,7 +60,7 @@ public class TC08 {
             WebElement qtyInput = driver.findElement(By.cssSelector(qtyInputLink));
             qtyInput.click();
             qtyInput.clear();
-            qtyInput.sendKeys("4");
+            qtyInput.sendKeys("6");
 
             Thread.sleep(2000);
 
